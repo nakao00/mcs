@@ -3,7 +3,7 @@
     var blockHits = false;
 
     ext.postToChat = function(str) {
-        var cmdUrl = "http://192.168.1.13:4715/postToChat/" + encodeURIComponent(str);
+        var cmdUrl = "http://192.168.1.114:4715/postToChat/" + encodeURIComponent(str);
         $.ajax({
             type: "GET",
             url: cmdUrl,
